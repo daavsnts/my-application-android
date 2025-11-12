@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.daavsnts.features.pokedex" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <application>
+7-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:4:5-14:19
+8        <activity
+8-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:5:9-13:20
+9            android:name="com.daavsnts.features.pokedex.PokedexActivity"
+9-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:6:13-44
+10            android:exported="true" >
+10-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:7:13-36
+11            <intent-filter>
+11-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:9:13-12:29
+12                <action android:name="android.intent.action.MAIN" />
+12-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:10:17-69
+12-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:10:25-66
+13
+14                <category android:name="android.intent.category.LAUNCHER" />
+14-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:11:17-77
+14-->/Users/daavsnts/AndroidStudioProjects/application/features/pokedex/src/main/AndroidManifest.xml:11:27-74
+15            </intent-filter>
+16        </activity>
+17    </application>
+18
+19</manifest>
