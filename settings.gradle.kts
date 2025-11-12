@@ -24,8 +24,11 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "application"
+
 include(":app")
-
+include(":core:model")
+include(":core:network")
+include(":core:data")
+include(":core:domain")
 include(":features:pokedex")
-
 includeBuild("build-logic")
