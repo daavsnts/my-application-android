@@ -1,5 +1,5 @@
 import com.android.build.gradle.LibraryExtension
-import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension // NOVO IMPORT NECESSÁRIO
+import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
 
 plugins {
     id("com.android.library")

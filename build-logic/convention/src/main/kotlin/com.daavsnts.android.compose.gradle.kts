@@ -1,5 +1,5 @@
 import com.android.build.api.dsl.CommonExtension
-import org.gradle.api.artifacts.VersionCatalogsExtension // NOVO IMPORT
+import org.gradle.api.artifacts.VersionCatalogsExtension
 
 val libs = extensions.getByType(VersionCatalogsExtension::class.java).named("libs")
 
